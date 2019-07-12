@@ -1,0 +1,2091 @@
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 1 1000. 15.22258
+	image	find_orders_flat
+	aperture	1
+	beam	1
+	center	1000. 15.22258
+	low	-999. -8.30901
+	high	1047. 8.914989
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		720.
+		2045.
+		2.775395
+		4.718141
+		-9.822897
+		-0.07648812
+		0.0205632
+		0.02550074
+		-0.001603488
+		-0.01282477
+		-0.01503364
+		-0.01928301
+		0.01636793
+		-0.004115406
+		-0.005168193
+		-0.001907839
+		0.002675606
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 2 1000. 45.34098
+	image	find_orders_flat
+	aperture	2
+	beam	2
+	center	1000. 45.34098
+	low	-999. -7.552475
+	high	1047. 8.236187
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		265.
+		2040.
+		-4.333481
+		20.13859
+		-17.21978
+		-0.03638119
+		-0.1011
+		0.04010326
+		0.03347692
+		-3.191976E-4
+		-0.006222501
+		-0.00484151
+		-0.01263516
+		-0.01965212
+		0.003818062
+		-0.006422468
+		-0.0139857
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 3 1000. 75.50345
+	image	find_orders_flat
+	aperture	3
+	beam	3
+	center	1000. 75.50345
+	low	-999. -8.294601
+	high	1047. 8.929398
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-10.31561
+		31.78639
+		-22.41053
+		0.1256548
+		-0.2221884
+		0.04518251
+		-0.01109454
+		0.05495437
+		-0.05288509
+		0.01600041
+		-0.01250009
+		-0.02303519
+		-0.007337552
+		-0.03104277
+		0.01897107
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 4 1000. 105.9543
+	image	find_orders_flat
+	aperture	4
+	beam	4
+	center	1000. 105.9543
+	low	-999. -7.894791
+	high	1047. 7.893875
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-10.06204
+		31.80111
+		-21.92149
+		0.100193
+		-0.2248315
+		0.01844678
+		-0.01021001
+		0.02574854
+		-0.0539225
+		0.006563833
+		-0.02633375
+		-0.01783569
+		-0.02201697
+		-0.02416454
+		0.008165156
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 5 1000. 136.6023
+	image	find_orders_flat
+	aperture	5
+	beam	5
+	center	1000. 136.6023
+	low	-999. -6.968567
+	high	1047. 8.102432
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-9.818593
+		31.82737
+		-21.43728
+		0.0821819
+		-0.2154847
+		-0.01085716
+		5.700787E-4
+		4.344304E-4
+		-0.04501835
+		-0.009080751
+		-0.02318138
+		-0.01813219
+		-0.03549073
+		-0.01540718
+		-0.009409113
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 6 1000. 167.4673
+	image	find_orders_flat
+	aperture	6
+	beam	6
+	center	1000. 167.4673
+	low	-999. -8.404877
+	high	1047. 8.101456
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-9.586418
+		31.86242
+		-20.95399
+		0.07483064
+		-0.2091312
+		-0.02759835
+		0.001804466
+		-0.01965663
+		-0.04184707
+		-0.02889771
+		-0.03200302
+		-0.0221062
+		-0.03256375
+		-0.01318467
+		-0.008195142
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 7 1000. 198.5307
+	image	find_orders_flat
+	aperture	7
+	beam	7
+	center	1000. 198.5307
+	low	-999. -7.181152
+	high	1047. 7.889847
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-9.33984
+		31.90397
+		-20.48035
+		0.06646344
+		-0.2096059
+		-0.03970647
+		-0.00601322
+		-0.0330497
+		-0.04436825
+		-0.03221844
+		-0.02020853
+		-0.02213035
+		-0.03565192
+		-0.01751998
+		-0.01114619
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 8 1000. 229.842
+	image	find_orders_flat
+	aperture	8
+	beam	8
+	center	1000. 229.842
+	low	-999. -7.62619
+	high	1047. 8.162476
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-9.113639
+		31.9642
+		-20.01417
+		0.0706544
+		-0.2132242
+		-0.03310351
+		-0.007991497
+		-0.03833386
+		-0.03726847
+		-0.0429448
+		-0.02519402
+		-0.03768083
+		-0.02988558
+		-0.0152557
+		-0.004723072
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 9 1000. 261.395
+	image	find_orders_flat
+	aperture	9
+	beam	9
+	center	1000. 261.395
+	low	-999. -6.883911
+	high	1047. 8.187073
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-8.885185
+		32.03144
+		-19.55002
+		0.07279538
+		-0.2104118
+		-0.02843296
+		-0.02173345
+		-0.04198878
+		-0.04436508
+		-0.04364395
+		-0.02225387
+		-0.03423313
+		-0.02231506
+		-0.02693134
+		-0.002212659
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 10 1000. 293.1995
+	image	find_orders_flat
+	aperture	10
+	beam	10
+	center	1000. 293.1995
+	low	-999. -7.826996
+	high	1047. 8.679352
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-8.654466
+		32.09518
+		-19.08348
+		0.07420027
+		-0.2058672
+		-0.03780299
+		-0.02177933
+		-0.04257555
+		-0.04484189
+		-0.0431795
+		-0.02351568
+		-0.03795825
+		-0.01795035
+		-0.02114113
+		0.001267697
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 11 1000. 325.2822
+	image	find_orders_flat
+	aperture	11
+	beam	11
+	center	1000. 325.2822
+	low	-999. -7.601105
+	high	1047. 7.46991
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-8.440378
+		32.17303
+		-18.62156
+		0.07962859
+		-0.1982965
+		-0.03382154
+		-0.02087143
+		-0.03297171
+		-0.0420958
+		-0.04310453
+		-0.02954264
+		-0.03286992
+		-0.02261297
+		-0.02373333
+		0.001221917
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 12 1000. 357.6122
+	image	find_orders_flat
+	aperture	12
+	beam	12
+	center	1000. 357.6122
+	low	-999. -7.650909
+	high	1047. 8.855408
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-8.19419
+		32.25554
+		-18.1645
+		0.07901065
+		-0.1951229
+		-0.04004388
+		-0.02485576
+		-0.03771226
+		-0.0499731
+		-0.04519979
+		-0.02542397
+		-0.03598632
+		-0.02922979
+		-0.02329567
+		-0.003677521
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 13 1000. 390.2537
+	image	find_orders_flat
+	aperture	13
+	beam	13
+	center	1000. 390.2537
+	low	-999. -7.995789
+	high	1047. 8.510559
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-7.965433
+		32.34449
+		-17.70763
+		0.08066215
+		-0.1870327
+		-0.0427701
+		-0.02223999
+		-0.04543305
+		-0.0517188
+		-0.04907723
+		-0.02398622
+		-0.04196621
+		-0.02563585
+		-0.02066494
+		0.005434084
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 14 1000. 423.2163
+	image	find_orders_flat
+	aperture	14
+	beam	14
+	center	1000. 423.2163
+	low	-999. -7.937012
+	high	1047. 9.286987
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-7.751205
+		32.44351
+		-17.25762
+		0.08125468
+		-0.1816388
+		-0.04355377
+		-0.02666169
+		-0.04265139
+		-0.05519158
+		-0.05100858
+		-0.02865387
+		-0.03878279
+		-0.03082595
+		-0.01490361
+		-0.002234619
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 15 1000. 456.4768
+	image	find_orders_flat
+	aperture	15
+	beam	15
+	center	1000. 456.4768
+	low	-999. -7.478546
+	high	1047. 9.027802
+	background
+		xmin -449.5611
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-7.514429
+		32.54652
+		-16.80948
+		0.08117174
+		-0.1770771
+		-0.04702906
+		-0.02516774
+		-0.04535997
+		-0.05627132
+		-0.05501962
+		-0.0262804
+		-0.03533787
+		-0.02911272
+		-0.01902086
+		0.001525804
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 16 1000. 490.0971
+	image	find_orders_flat
+	aperture	16
+	beam	16
+	center	1000. 490.0971
+	low	-999. -7.652771
+	high	1047. 7.300018
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-7.298508
+		32.65857
+		-16.36042
+		0.07953339
+		-0.1728813
+		-0.04485651
+		-0.0273806
+		-0.04652301
+		-0.0604459
+		-0.05462577
+		-0.02987087
+		-0.03730515
+		-0.0258279
+		-0.01401863
+		0.002250073
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 17 1000. 524.0597
+	image	find_orders_flat
+	aperture	17
+	beam	17
+	center	1000. 524.0597
+	low	-999. -7.634949
+	high	1047. 6.638184
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-7.070792
+		32.78166
+		-15.91312
+		0.07579926
+		-0.1700873
+		-0.04781498
+		-0.02861273
+		-0.04624715
+		-0.0547542
+		-0.04892419
+		-0.0285327
+		-0.03734716
+		-0.02862768
+		-0.01945769
+		0.003996733
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 18 1000. 558.3933
+	image	find_orders_flat
+	aperture	18
+	beam	18
+	center	1000. 558.3933
+	low	-999. -8.664673
+	high	1047. 8.327148
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-6.850479
+		32.90685
+		-15.47361
+		0.07622634
+		-0.1633301
+		-0.04448817
+		-0.02789298
+		-0.05153539
+		-0.05798716
+		-0.0555099
+		-0.02950626
+		-0.03746535
+		-0.0281956
+		-0.01245684
+		-6.042668E-4
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 19 1000. 593.1042
+	image	find_orders_flat
+	aperture	19
+	beam	19
+	center	1000. 593.1042
+	low	-999. -7.356995
+	high	1047. 8.955139
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-6.625326
+		33.0431
+		-15.03182
+		0.07646775
+		-0.1627632
+		-0.04482382
+		-0.03141518
+		-0.05098448
+		-0.05863489
+		-0.0563205
+		-0.03295938
+		-0.04401329
+		-0.02331763
+		-0.01886747
+		0.001069994
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 20 1000. 628.2167
+	image	find_orders_flat
+	aperture	20
+	beam	20
+	center	1000. 628.2167
+	low	-999. -7.804626
+	high	1047. 8.507507
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-6.401172
+		33.1869
+		-14.58994
+		0.07552947
+		-0.1575401
+		-0.04628153
+		-0.03091023
+		-0.05102537
+		-0.06309975
+		-0.05091924
+		-0.02772163
+		-0.04366707
+		-0.02549822
+		-0.01500725
+		9.320376E-4
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 21 1000. 663.7475
+	image	find_orders_flat
+	aperture	21
+	beam	21
+	center	1000. 663.7475
+	low	-999. -9.353027
+	high	1047. 8.318481
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-6.177845
+		33.33944
+		-14.15007
+		0.07281674
+		-0.1527139
+		-0.0476942
+		-0.03325855
+		-0.05211741
+		-0.06270053
+		-0.04908559
+		-0.03131371
+		-0.03819604
+		-0.0306196
+		-0.01083389
+		0.006515271
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 22 1000. 699.7206
+	image	find_orders_flat
+	aperture	22
+	beam	22
+	center	1000. 699.7206
+	low	-999. -7.941406
+	high	1047. 8.370728
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-5.961257
+		33.50144
+		-13.71077
+		0.07083987
+		-0.1451938
+		-0.05137637
+		-0.03176348
+		-0.05734792
+		-0.06710359
+		-0.05101039
+		-0.03562345
+		-0.03892708
+		-0.02512575
+		-0.01341643
+		0.004079123
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 23 1000. 736.1426
+	image	find_orders_flat
+	aperture	23
+	beam	23
+	center	1000. 736.1426
+	low	-999. -8.340759
+	high	1047. 7.291687
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-5.73992
+		33.67149
+		-13.27113
+		0.06858037
+		-0.1401402
+		-0.04976389
+		-0.0339415
+		-0.05799973
+		-0.0629167
+		-0.05021409
+		-0.0320112
+		-0.03768743
+		-0.02446159
+		-0.01305545
+		0.006513146
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 24 1000. 773.0405
+	image	find_orders_flat
+	aperture	24
+	beam	24
+	center	1000. 773.0405
+	low	-999. -7.856201
+	high	1047. 8.455933
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-5.519074
+		33.85292
+		-12.83165
+		0.07131242
+		-0.1346202
+		-0.04660503
+		-0.0352217
+		-0.06038873
+		-0.06056371
+		-0.04935773
+		-0.03156448
+		-0.03841774
+		-0.02769837
+		-0.01613328
+		0.005615303
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 25 1000. 810.4338
+	image	find_orders_flat
+	aperture	25
+	beam	25
+	center	1000. 810.4338
+	low	-999. -8.540955
+	high	1047. 8.450867
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-5.304021
+		34.03777
+		-12.38958
+		0.0705778
+		-0.1248327
+		-0.05049361
+		-0.03038897
+		-0.05816718
+		-0.06009993
+		-0.05102466
+		-0.03314376
+		-0.03603988
+		-0.02267137
+		-0.01420144
+		0.006671039
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 26 1000. 848.3177
+	image	find_orders_flat
+	aperture	26
+	beam	26
+	center	1000. 848.3177
+	low	-999. -7.697083
+	high	1047. 7.935364
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-5.065412
+		34.22976
+		-11.94748
+		0.06777306
+		-0.122189
+		-0.05083056
+		-0.03396491
+		-0.05957558
+		-0.06074424
+		-0.04984065
+		-0.03307059
+		-0.0335452
+		-0.02376889
+		-0.01507335
+		0.01365649
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 27 1000. 886.751
+	image	find_orders_flat
+	aperture	27
+	beam	27
+	center	1000. 886.751
+	low	-999. -7.358521
+	high	1047. 7.298706
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-4.84153
+		34.4343
+		-11.50093
+		0.07039043
+		-0.1121312
+		-0.04735221
+		-0.03515277
+		-0.05939749
+		-0.06391156
+		-0.05220072
+		-0.03224326
+		-0.03921656
+		-0.02683182
+		-0.01411201
+		0.01067686
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 28 1000. 925.7556
+	image	find_orders_flat
+	aperture	28
+	beam	28
+	center	1000. 925.7556
+	low	-999. -8.136414
+	high	1047. 8.091248
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-4.631562
+		34.65016
+		-11.05495
+		0.06894221
+		-0.1062291
+		-0.05164084
+		-0.03846033
+		-0.06323933
+		-0.06243184
+		-0.05182055
+		-0.03178174
+		-0.03506855
+		-0.02352697
+		-0.01058598
+		0.007667189
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 29 1000. 965.3087
+	image	find_orders_flat
+	aperture	29
+	beam	29
+	center	1000. 965.3087
+	low	-999. -7.398193
+	high	1047. 7.782593
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-4.388076
+		34.87514
+		-10.60635
+		0.06796887
+		-0.1002082
+		-0.05328729
+		-0.03707828
+		-0.05897546
+		-0.06561173
+		-0.05415165
+		-0.03371661
+		-0.03608283
+		-0.01899065
+		-0.004954231
+		0.008796116
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 30 1000. 1005.499
+	image	find_orders_flat
+	aperture	30
+	beam	30
+	center	1000. 1005.499
+	low	-999. -7.261169
+	high	1047. 7.919556
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-4.177203
+		35.10778
+		-10.15253
+		0.07069627
+		-0.09287065
+		-0.04718951
+		-0.03793183
+		-0.06403086
+		-0.06778912
+		-0.05239133
+		-0.03374559
+		-0.03525614
+		-0.01629968
+		-0.005734091
+		0.01345997
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 31 1000. 1046.292
+	image	find_orders_flat
+	aperture	31
+	beam	31
+	center	1000. 1046.292
+	low	-999. -6.188477
+	high	1047. 7.945313
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-3.934538
+		35.35654
+		-9.694582
+		0.06986687
+		-0.08097846
+		-0.04692923
+		-0.03788771
+		-0.06295474
+		-0.06489659
+		-0.05392352
+		-0.02825518
+		-0.03126788
+		-0.01866456
+		-0.0069715
+		0.01197485
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 32 1000. 1087.751
+	image	find_orders_flat
+	aperture	32
+	beam	32
+	center	1000. 1087.751
+	low	-999. -7.340088
+	high	1047. 8.364136
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-3.700274
+		35.61032
+		-9.233265
+		0.07256941
+		-0.07618289
+		-0.04749257
+		-0.03894733
+		-0.06424583
+		-0.067841
+		-0.05088712
+		-0.0314321
+		-0.03430754
+		-0.01912914
+		-0.007956883
+		0.009014893
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 33 1000. 1129.887
+	image	find_orders_flat
+	aperture	33
+	beam	33
+	center	1000. 1129.887
+	low	-999. -8.125854
+	high	1047. 7.578369
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-3.456632
+		35.87822
+		-8.763102
+		0.07382586
+		-0.07029993
+		-0.04968976
+		-0.04127397
+		-0.06840988
+		-0.06550013
+		-0.05114719
+		-0.03143588
+		-0.04035126
+		-0.02282767
+		-0.0101846
+		0.01188881
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 34 1000. 1172.753
+	image	find_orders_flat
+	aperture	34
+	beam	34
+	center	1000. 1172.753
+	low	-999. -5.964844
+	high	1047. 8.168945
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-3.227078
+		36.15783
+		-8.28712
+		0.07795049
+		-0.0618539
+		-0.04738967
+		-0.04281769
+		-0.06746666
+		-0.06634866
+		-0.05628246
+		-0.03862825
+		-0.03641007
+		-0.02451885
+		-0.01390857
+		0.006865476
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 35 1000. 1216.351
+	image	find_orders_flat
+	aperture	35
+	beam	35
+	center	1000. 1216.351
+	low	-999. -6.478271
+	high	1047. 8.103027
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-2.979757
+		36.44915
+		-7.804817
+		0.07909748
+		-0.05066891
+		-0.04663532
+		-0.04157886
+		-0.06540705
+		-0.06662218
+		-0.05308316
+		-0.03097774
+		-0.0318315
+		-0.02046583
+		-0.007778914
+		0.01067879
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 36 1000. 1260.726
+	image	find_orders_flat
+	aperture	36
+	beam	36
+	center	1000. 1260.726
+	low	-999. -7.109863
+	high	1047. 7.471436
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-2.72781
+		36.75149
+		-7.310633
+		0.08311023
+		-0.04111596
+		-0.04492383
+		-0.03863657
+		-0.06587193
+		-0.06802721
+		-0.0522753
+		-0.03581428
+		-0.03604355
+		-0.02177259
+		-0.005279955
+		0.01117288
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 37 1000. 1305.921
+	image	find_orders_flat
+	aperture	37
+	beam	37
+	center	1000. 1305.921
+	low	-999. -7.233276
+	high	1047. 8.010864
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-2.477486
+		37.06989
+		-6.81186
+		0.08679821
+		-0.03463023
+		-0.04511724
+		-0.04270069
+		-0.06866127
+		-0.06424832
+		-0.05127195
+		-0.03528098
+		-0.0374032
+		-0.02334255
+		-0.007304772
+		0.01097153
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 38 1000. 1351.94
+	image	find_orders_flat
+	aperture	38
+	beam	38
+	center	1000. 1351.94
+	low	-999. -6.873413
+	high	1047. 7.707886
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-2.200244
+		37.39907
+		-6.296432
+		0.0904902
+		-0.02868086
+		-0.04804973
+		-0.04324678
+		-0.06888042
+		-0.06468777
+		-0.05369125
+		-0.03349857
+		-0.0351386
+		-0.01843767
+		-0.007391009
+		0.007625972
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 39 1000. 1398.874
+	image	find_orders_flat
+	aperture	39
+	beam	39
+	center	1000. 1398.874
+	low	-999. -6.073975
+	high	1047. 7.181763
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-1.944882
+		37.74646
+		-5.769661
+		0.09963332
+		-0.01827711
+		-0.04496203
+		-0.04119942
+		-0.06446502
+		-0.06492381
+		-0.05107715
+		-0.03381932
+		-0.03700593
+		-0.02158965
+		-0.0073541
+		0.005093356
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 40 1000. 1446.73
+	image	find_orders_flat
+	aperture	40
+	beam	40
+	center	1000. 1446.73
+	low	-999. -6.205933
+	high	1047. 7.049683
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-1.672955
+		38.11062
+		-5.229969
+		0.1069503
+		-0.01088497
+		-0.04377421
+		-0.04212259
+		-0.06359448
+		-0.06270871
+		-0.05149788
+		-0.0324946
+		-0.03727122
+		-0.01922717
+		-0.007269045
+		0.01072281
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 41 1000. 1495.555
+	image	find_orders_flat
+	aperture	41
+	beam	41
+	center	1000. 1495.555
+	low	-999. -6.643677
+	high	1047. 7.274902
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-1.391444
+		38.4907
+		-4.67462
+		0.1115946
+		-9.312606E-4
+		-0.04412059
+		-0.03829246
+		-0.0659561
+		-0.06456733
+		-0.04767083
+		-0.03002267
+		-0.03500967
+		-0.02212096
+		-0.003450497
+		0.007885694
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 42 1000. 1545.402
+	image	find_orders_flat
+	aperture	42
+	beam	42
+	center	1000. 1545.402
+	low	-999. -6.119507
+	high	1047. 7.79895
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-1.101909
+		38.88944
+		-4.103228
+		0.1201802
+		0.009294611
+		-0.04199658
+		-0.0395027
+		-0.06271154
+		-0.06699817
+		-0.05076757
+		-0.03362594
+		-0.0327822
+		-0.0192984
+		-0.007707885
+		0.007274732
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 43 1000. 1596.301
+	image	find_orders_flat
+	aperture	43
+	beam	43
+	center	1000. 1596.301
+	low	-999. -5.332397
+	high	1047. 8.586182
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-0.7863441
+		39.30791
+		-3.511281
+		0.1325356
+		0.01791796
+		-0.03755196
+		-0.03398177
+		-0.06193784
+		-0.06496636
+		-0.04936422
+		-0.03052835
+		-0.03588037
+		-0.02387739
+		-0.01089515
+		0.003326614
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 44 1000. 1648.322
+	image	find_orders_flat
+	aperture	44
+	beam	44
+	center	1000. 1648.322
+	low	-999. -5.748291
+	high	1047. 5.869385
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-0.4589747
+		39.74632
+		-2.900373
+		0.1449902
+		0.0305683
+		-0.04001524
+		-0.03687819
+		-0.06422344
+		-0.0607798
+		-0.04918129
+		-0.02991695
+		-0.04050594
+		-0.02376793
+		-0.01299354
+		0.005138538
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 45 1000. 1701.573
+	image	find_orders_flat
+	aperture	45
+	beam	45
+	center	1000. 1701.573
+	low	-999. -5.961792
+	high	1047. 7.108154
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		-0.1662885
+		40.21277
+		-2.265456
+		0.1585184
+		0.04063126
+		-0.03785724
+		-0.03543337
+		-0.06109749
+		-0.06322794
+		-0.04822076
+		-0.03379365
+		-0.03298239
+		-0.02360866
+		-0.009500847
+		0.006360558
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 46 1000. 1756.016
+	image	find_orders_flat
+	aperture	46
+	beam	46
+	center	1000. 1756.016
+	low	-999. -5.963501
+	high	1047. 6.380371
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		0.1886102
+		40.70291
+		-1.601623
+		0.1792028
+		0.04415871
+		-0.04353282
+		-0.03339569
+		-0.05561653
+		-0.05719279
+		-0.05106331
+		-0.03529082
+		-0.03590058
+		-0.02548414
+		-0.01788486
+		-9.714015E-4
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 47 1000. 1811.801
+	image	find_orders_flat
+	aperture	47
+	beam	47
+	center	1000. 1811.801
+	low	-999. -5.833984
+	high	1047. 6.509888
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		0.5335677
+		41.22248
+		-0.9198346
+		0.1896953
+		0.06151478
+		-0.0347134
+		-0.02920702
+		-0.05761451
+		-0.05731539
+		-0.04688788
+		-0.03139093
+		-0.03309485
+		-0.02564241
+		-0.0131682
+		-0.002374516
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 48 1000. 1868.972
+	image	find_orders_flat
+	aperture	48
+	beam	48
+	center	1000. 1868.972
+	low	-999. -7.069824
+	high	1047. 6.000244
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		0.8869406
+		41.76871
+		-0.177523
+		0.2249924
+		0.05211393
+		-0.05973806
+		-0.02333605
+		-0.03635367
+		-0.04494491
+		-0.05393799
+		-0.04738389
+		-0.03818071
+		-0.02382301
+		-0.01406428
+		-7.699777E-4
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 49 1000. 1927.584
+	image	find_orders_flat
+	aperture	49
+	beam	49
+	center	1000. 1927.584
+	low	-999. -5.44104
+	high	1047. 6.176758
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		1.296079
+		42.35328
+		0.560257
+		0.2307067
+		0.08485273
+		-0.02535862
+		-0.01658643
+		-0.05795181
+		-0.05727639
+		-0.0448252
+		-0.03180004
+		-0.04092669
+		-0.03369332
+		-0.0185597
+		-0.009216418
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 50 1000. 1987.781
+	image	find_orders_flat
+	aperture	50
+	beam	50
+	center	1000. 1987.781
+	low	-999. -6.080078
+	high	1047. 6.263794
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		2045.
+		1.674494
+		42.95918
+		1.365578
+		0.2827263
+		0.1082982
+		-0.05396702
+		-0.05136311
+		-0.06981961
+		-0.05377988
+		-0.03877811
+		-0.03303721
+		-0.04135083
+		-0.03810317
+		-0.02429581
+		-0.004308869
+
+# Tue 15:38:53 02-Jan-2018
+begin	aperture find_orders_flat 51 1000. 2049.708
+	image	find_orders_flat
+	aperture	51
+	beam	51
+	center	1000. 2049.708
+	low	-999. -7.029785
+	high	1047. 5.313965
+	background
+		xmin -40.
+		xmax 40.
+		function chebyshev
+		order 1
+		sample -40:-35,35:40
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	19
+		2.
+		15.
+		5.
+		1200.
+		-16.06911
+		24.02832
+		0.5962777
+		-0.03277328
+		0.02493079
+		-0.02668537
+		-0.01296838
+		-0.02960766
+		-0.02753769
+		-0.02387967
+		-0.01433555
+		-0.01967213
+		-0.0117574
+		-0.02252102
+		-0.01736821
+

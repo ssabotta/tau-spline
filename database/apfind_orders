@@ -1,0 +1,1581 @@
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 1 1023. 15.95464
+	image	find_orders
+	aperture	1
+	beam	1
+	center	1023. 15.95464
+	low	-1022. -5.859787
+	high	1024. 5.812841
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		723.
+		2023.
+		2.157046
+		5.047679
+		-9.451132
+		-0.07324721
+		0.02139943
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 2 1023. 46.05416
+	image	find_orders
+	aperture	2
+	beam	2
+	center	1023. 46.05416
+	low	-1022. -5.811115
+	high	1024. 5.802666
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		273.
+		2043.
+		-4.874237
+		19.75968
+		-17.12317
+		-0.04296882
+		-0.1024877
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 3 1023. 76.34122
+	image	find_orders
+	aperture	3
+	beam	3
+	center	1023. 76.34122
+	low	-1022. -5.821259
+	high	1024. 5.740906
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-11.1027
+		31.9178
+		-22.4105
+		0.1245348
+		-0.2187724
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 4 1023. 106.8021
+	image	find_orders
+	aperture	4
+	beam	4
+	center	1023. 106.8021
+	low	-1022. -5.730446
+	high	1024. 5.733887
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-10.85883
+		31.92802
+		-21.91942
+		0.09588094
+		-0.2210205
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 5 1023. 137.4651
+	image	find_orders
+	aperture	5
+	beam	5
+	center	1023. 137.4651
+	low	-1022. -5.747833
+	high	1024. 5.648636
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-10.63056
+		31.95057
+		-21.43582
+		0.07675395
+		-0.2137102
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 6 1023. 168.3123
+	image	find_orders
+	aperture	6
+	beam	6
+	center	1023. 168.3123
+	low	-1022. -5.679611
+	high	1024. 5.616547
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-10.38033
+		31.98153
+		-20.95136
+		0.0660321
+		-0.2040771
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 7 1023. 199.3978
+	image	find_orders
+	aperture	7
+	beam	7
+	center	1023. 199.3978
+	low	-1022. -5.651245
+	high	1024. 5.555969
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-10.156
+		32.02031
+		-20.47694
+		0.05655637
+		-0.2034266
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 8 1023. 230.6892
+	image	find_orders
+	aperture	8
+	beam	8
+	center	1023. 230.6892
+	low	-1022. -5.58757
+	high	1024. 5.561005
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-9.910218
+		32.07856
+		-20.01203
+		0.06199618
+		-0.2068089
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 9 1023. 262.2522
+	image	find_orders
+	aperture	9
+	beam	9
+	center	1023. 262.2522
+	low	-1022. -5.517975
+	high	1024. 5.552368
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-9.691919
+		32.14273
+		-19.54727
+		0.06346358
+		-0.2049081
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 10 1023. 294.0539
+	image	find_orders
+	aperture	10
+	beam	10
+	center	1023. 294.0539
+	low	-1022. -5.495758
+	high	1024. 5.489075
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-9.45816
+		32.20316
+		-19.08097
+		0.06437463
+		-0.1993808
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 11 1023. 326.1198
+	image	find_orders
+	aperture	11
+	beam	11
+	center	1023. 326.1198
+	low	-1022. -5.458679
+	high	1024. 5.470184
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-9.227774
+		32.27908
+		-18.61952
+		0.07068044
+		-0.1930947
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 12 1023. 358.4561
+	image	find_orders
+	aperture	12
+	beam	12
+	center	1023. 358.4561
+	low	-1022. -5.432922
+	high	1024. 5.420654
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-8.987718
+		32.35785
+		-18.16301
+		0.07000512
+		-0.191561
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 13 1023. 391.1077
+	image	find_orders
+	aperture	13
+	beam	13
+	center	1023. 391.1077
+	low	-1022. -5.371033
+	high	1024. 5.391998
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-8.769468
+		32.44447
+		-17.70581
+		0.07035132
+		-0.1819437
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 14 1023. 424.0572
+	image	find_orders
+	aperture	14
+	beam	14
+	center	1023. 424.0572
+	low	-1022. -5.338898
+	high	1024. 5.367371
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-8.542294
+		32.54082
+		-17.25615
+		0.07206027
+		-0.1775415
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 15 1023. 457.324
+	image	find_orders
+	aperture	15
+	beam	15
+	center	1023. 457.324
+	low	-1022. -5.309753
+	high	1024. 5.366486
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-8.312053
+		32.64152
+		-16.8075
+		0.07194665
+		-0.1723271
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 16 1023. 490.935
+	image	find_orders
+	aperture	16
+	beam	16
+	center	1023. 490.935
+	low	-1022. -5.274597
+	high	1024. 5.258453
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-8.087282
+		32.75161
+		-16.35956
+		0.07096916
+		-0.167814
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 17 1023. 524.9133
+	image	find_orders
+	aperture	17
+	beam	17
+	center	1023. 524.9133
+	low	-1022. -5.24054
+	high	1024. 5.223694
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-7.875272
+		32.87126
+		-15.91163
+		0.06655162
+		-0.1651414
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 18 1023. 559.2463
+	image	find_orders
+	aperture	18
+	beam	18
+	center	1023. 559.2463
+	low	-1022. -5.213562
+	high	1024. 5.278076
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-7.654669
+		32.99393
+		-15.47268
+		0.0675821
+		-0.1599236
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 19 1023. 593.9749
+	image	find_orders
+	aperture	19
+	beam	19
+	center	1023. 593.9749
+	low	-1022. -5.152466
+	high	1024. 5.129028
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-7.44729
+		33.1273
+		-15.03012
+		0.0667881
+		-0.1580988
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 20 1023. 629.0875
+	image	find_orders
+	aperture	20
+	beam	20
+	center	1023. 629.0875
+	low	-1022. -5.143677
+	high	1024. 5.153687
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-7.223877
+		33.26916
+		-14.58869
+		0.06705724
+		-0.1536701
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 21 1023. 664.6307
+	image	find_orders
+	aperture	21
+	beam	21
+	center	1023. 664.6307
+	low	-1022. -5.173035
+	high	1024. 5.158997
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-7.01305
+		33.41901
+		-14.14888
+		0.06432081
+		-0.1486138
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 22 1023. 700.597
+	image	find_orders
+	aperture	22
+	beam	22
+	center	1023. 700.597
+	low	-1022. -5.141296
+	high	1024. 5.159851
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-6.78996
+		33.57814
+		-13.70895
+		0.06132347
+		-0.1404276
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 23 1023. 737.0251
+	image	find_orders
+	aperture	23
+	beam	23
+	center	1023. 737.0251
+	low	-1022. -5.05365
+	high	1024. 5.029907
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-6.574979
+		33.74557
+		-13.26919
+		0.05888694
+		-0.135557
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 24 1023. 773.9253
+	image	find_orders
+	aperture	24
+	beam	24
+	center	1023. 773.9253
+	low	-1022. -5.062866
+	high	1024. 5.026794
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-6.356857
+		33.92458
+		-12.82983
+		0.06199144
+		-0.1304567
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 25 1023. 811.315
+	image	find_orders
+	aperture	25
+	beam	25
+	center	1023. 811.315
+	low	-1022. -5.086487
+	high	1024. 5.09491
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-6.138577
+		34.10674
+		-12.38793
+		0.06194335
+		-0.1211857
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 26 1023. 849.2175
+	image	find_orders
+	aperture	26
+	beam	26
+	center	1023. 849.2175
+	low	-1022. -5.053955
+	high	1024. 5.046631
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-5.918846
+		34.29637
+		-11.94565
+		0.05934257
+		-0.1178688
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 27 1023. 887.6552
+	image	find_orders
+	aperture	27
+	beam	27
+	center	1023. 887.6552
+	low	-1022. -5.055115
+	high	1024. 5.062805
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-5.700061
+		34.4984
+		-11.49961
+		0.06187362
+		-0.1083338
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 28 1023. 926.6424
+	image	find_orders
+	aperture	28
+	beam	28
+	center	1023. 926.6424
+	low	-1022. -5.007996
+	high	1024. 5.051025
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-5.473087
+		34.71166
+		-11.05341
+		0.06018237
+		-0.1021382
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 29 1023. 966.2214
+	image	find_orders
+	aperture	29
+	beam	29
+	center	1023. 966.2214
+	low	-1022. -5.012451
+	high	1024. 5.003174
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-5.256067
+		34.93423
+		-10.60472
+		0.05955298
+		-0.09629404
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 30 1023. 1006.409
+	image	find_orders
+	aperture	30
+	beam	30
+	center	1023. 1006.409
+	low	-1022. -5.012695
+	high	1024. 5.021912
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-5.043001
+		35.16411
+		-10.15083
+		0.06203064
+		-0.08881319
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 31 1023. 1047.207
+	image	find_orders
+	aperture	31
+	beam	31
+	center	1023. 1047.207
+	low	-1022. -4.966797
+	high	1024. 4.933105
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-4.805503
+		35.41091
+		-9.694041
+		0.06157043
+		-0.07647497
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 32 1023. 1088.673
+	image	find_orders
+	aperture	32
+	beam	32
+	center	1023. 1088.673
+	low	-1022. -4.938232
+	high	1024. 4.981445
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-4.578608
+		35.661
+		-9.231891
+		0.06417753
+		-0.07252782
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 33 1023. 1130.821
+	image	find_orders
+	aperture	33
+	beam	33
+	center	1023. 1130.821
+	low	-1022. -4.9104
+	high	1024. 4.944702
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-4.34711
+		35.92637
+		-8.76156
+		0.0652561
+		-0.06624075
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 34 1023. 1173.679
+	image	find_orders
+	aperture	34
+	beam	34
+	center	1023. 1173.679
+	low	-1022. -4.910889
+	high	1024. 4.962158
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-4.11056
+		36.20322
+		-8.2863
+		0.06923621
+		-0.05859306
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 35 1023. 1217.28
+	image	find_orders
+	aperture	35
+	beam	35
+	center	1023. 1217.28
+	low	-1022. -4.913574
+	high	1024. 4.892212
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-3.866765
+		36.4919
+		-7.803906
+		0.07107108
+		-0.04741611
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 36 1023. 1261.669
+	image	find_orders
+	aperture	36
+	beam	36
+	center	1023. 1261.669
+	low	-1022. -4.884766
+	high	1024. 4.92981
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-3.629684
+		36.79123
+		-7.309733
+		0.07518608
+		-0.0376601
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 37 1023. 1306.874
+	image	find_orders
+	aperture	37
+	beam	37
+	center	1023. 1306.874
+	low	-1022. -4.831909
+	high	1024. 4.873657
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-3.390079
+		37.10655
+		-6.810804
+		0.07842952
+		-0.03134384
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 38 1023. 1352.914
+	image	find_orders
+	aperture	38
+	beam	38
+	center	1023. 1352.914
+	low	-1022. -4.84436
+	high	1024. 4.859253
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-3.13434
+		37.43265
+		-6.295714
+		0.08218011
+		-0.02555927
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 39 1023. 1399.842
+	image	find_orders
+	aperture	39
+	beam	39
+	center	1023. 1399.842
+	low	-1022. -4.810791
+	high	1024. 4.856201
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-2.87312
+		37.77735
+		-5.769848
+		0.09252867
+		-0.01549216
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 40 1023. 1447.697
+	image	find_orders
+	aperture	40
+	beam	40
+	center	1023. 1447.697
+	low	-1022. -4.823364
+	high	1024. 4.861084
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-2.601897
+		38.13833
+		-5.229458
+		0.09978601
+		-0.007827479
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 41 1023. 1496.53
+	image	find_orders
+	aperture	41
+	beam	41
+	center	1023. 1496.53
+	low	-1022. -4.817749
+	high	1024. 4.833252
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-2.328607
+		38.51476
+		-4.674036
+		0.1038248
+		0.002125752
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 42 1023. 1546.377
+	image	find_orders
+	aperture	42
+	beam	42
+	center	1023. 1546.377
+	low	-1022. -4.779419
+	high	1024. 4.758789
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-2.040583
+		38.91037
+		-4.102856
+		0.112482
+		0.01198816
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 43 1023. 1597.297
+	image	find_orders
+	aperture	43
+	beam	43
+	center	1023. 1597.297
+	low	-1022. -4.771851
+	high	1024. 4.733521
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-1.746524
+		39.32512
+		-3.511111
+		0.1251775
+		0.02056106
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 44 1023. 1649.344
+	image	find_orders
+	aperture	44
+	beam	44
+	center	1023. 1649.344
+	low	-1022. -4.763062
+	high	1024. 4.715698
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-1.446012
+		39.75937
+		-2.899481
+		0.1373474
+		0.03318846
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 45 1023. 1702.575
+	image	find_orders
+	aperture	45
+	beam	45
+	center	1023. 1702.575
+	low	-1022. -4.708984
+	high	1024. 4.696167
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-1.134798
+		40.22268
+		-2.26576
+		0.1514754
+		0.04234997
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 46 1023. 1757.044
+	image	find_orders
+	aperture	46
+	beam	46
+	center	1023. 1757.044
+	low	-1022. -4.901367
+	high	1024. 4.724609
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-0.8060377
+		40.70861
+		-1.602188
+		0.1715989
+		0.04728531
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 47 1023. 1812.853
+	image	find_orders
+	aperture	47
+	beam	47
+	center	1023. 1812.853
+	low	-1022. -4.616455
+	high	1024. 4.612793
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-0.4867247
+		41.22362
+		-0.9211916
+		0.1812939
+		0.06186751
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 48 1023. 1869.992
+	image	find_orders
+	aperture	48
+	beam	48
+	center	1023. 1869.992
+	low	-1022. -4.986938
+	high	1024. 4.713379
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		-0.1022675
+		41.76603
+		-0.174847
+		0.2141503
+		0.05702671
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 49 1023. 1928.655
+	image	find_orders
+	aperture	49
+	beam	49
+	center	1023. 1928.655
+	low	-1022. -4.582642
+	high	1024. 4.531982
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		0.2548795
+		42.34692
+		0.5594975
+		0.2235666
+		0.08768658
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 50 1023. 1988.833
+	image	find_orders
+	aperture	50
+	beam	50
+	center	1023. 1988.833
+	low	-1022. -5.21936
+	high	1024. 4.72229
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		2043.
+		0.6502771
+		42.94748
+		1.363826
+		0.274556
+		0.1102222
+
+# Mon 17:45:58 10-Sep-2018
+begin	aperture find_orders 51 1023. 2050.688
+	image	find_orders
+	aperture	51
+	beam	51
+	center	1023. 2050.688
+	low	-1022. -4.487915
+	high	1024. 4.294922
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1193.
+		-17.23095
+		23.91387
+		0.5993943
+		-0.0358075
+		0.03432482
+
