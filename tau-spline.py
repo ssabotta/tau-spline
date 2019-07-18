@@ -281,16 +281,22 @@ def barycor(filelist_new):
             ut_of_observation = int(header_time_of_observation[11:13]) + int(header_time_of_observation[14:16])/60 + int(header_time_of_observation[17:19])/3600
         exposure_time = hdulist[0].header['EXP_TIME']
     
-        output_filename_dummy = filelist_new[i].replace("norm.","norm.rvcorrect.")
-        output_filename_dummyI = output_filename_dummy.replace("norm-1","norm-1.rvcorrect")
-        output_filename = output_filename_dummyI.replace("merged","merged.rvcorrect")
+        output_filename_dummy = filelist_new[i].replace("norm.","norm.dummy.")
+        output_filename_dummyI = output_filename_dummy.replace("norm-1","norm-1.dummy.")
+        output_filename = output_filename_dummyI.replace("merged","merged.dummy.")
 
+        iraf.scopy(filelist_new[i], output_filename)
         iraf.hedit(images = output_filename, fields = "UT", value = ut_of_observation)
         iraf.hedit(images = output_filename, fields = "EPOCH", value = "2000")
         iraf.hedit(images = output_filename, fields = "EXP-TIME", value = exposure_time)
         iraf.rvcorrect(images = output_filename, year = year_of_observation, month= month_of_observation, day = day_of_observation, ut = ut_of_observation, ra= right_ascension, dec=declination)
         
-        iraf.dopcor(output_filename, output_filename , redshift= "-VHELIO", isvelocity = "yes")
+        output_filename_final = output_filename.replace("dummy.", "rvcorrect.")
+        print(output_filename, output_filename_final)
+        iraf.dopcor(output_filename, output_filename_final , redshift= "-VHELIO", isvelocity = "yes")
+        
+        
+        os.remove(output_filename)
         hdulist.close()
 
 def headcor(filelist_new):
