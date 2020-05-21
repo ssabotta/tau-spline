@@ -4,7 +4,9 @@
 
 from astropy.io import fits
 from tkinter import ttk
-from pyraf import iraf, epar
+
+try: from pyraf import iraf, epar
+except: print('Still no Pyraf: some functions might not work..')
 from datetime import date
 
 import matplotlib.pyplot as plt
@@ -606,11 +608,14 @@ def reduce_data(filelist_new, filelist_masterflats,  filelist_masterthars):
         for i in range(len(filelist_new)):
             trim = trim_remove_bias(filelist_new[i])
             chosen_masterflat = None
-    
-            if os.path.exists(os.path.join(current_directory, "dummyI.fits")):
-                os.remove(os.path.join(current_directory, "dummyI.fits"))
-            if os.path.exists(os.path.join(current_directory, "dummyII.fits")):
-                os.remove(os.path.join(current_directory, "dummyII.fits"))
+
+            dummyI = trim.replace(".trim_will_be_removed.fits",".dummyI.fits")
+            dummyII = trim.replace(".trim_will_be_removed.fits",".dummyII.fits")
+                        
+            if os.path.exists(dummyI):
+                os.remove(dummyI)
+            if os.path.exists(dummyII):
+                os.remove(dummyII)
             
             for y in years:
                 for mon in month:
@@ -625,18 +630,18 @@ def reduce_data(filelist_new, filelist_masterflats,  filelist_masterthars):
                 print("Masterflat File not found!!")
                 continue
                              
-            iraf.imarith(trim, "/", chosen_masterflat, "dummyI.fits")
+            iraf.imarith(trim, "/", chosen_masterflat, dummyI)
         
-            iraf.apscatter("dummyI.fits", output ="dummyII.fits", interactive="No", apertures = "1-51", references= "find_orders.fits")    
+            iraf.apscatter(dummyI, output = dummyII, interactive="No", apertures = "1-51", references= "find_orders.fits")    
         
             clean = trim.replace(".trim_will_be_removed.fits",".clean.fits")
             mask = trim.replace(".trim_will_be_removed.fits",".mask.fits")
                 
-            mean_image = iraf.imstat("dummyII.fits", Stdout=1, fields="mean", format="no")
+            mean_image = iraf.imstat(dummyII, Stdout=1, fields="mean", format="no")
             print(mean_image)
     
             if float(mean_image[0]) > 5000:                
-                array, header = cosmics.fromfits("dummyII.fits")
+                array, header = cosmics.fromfits(dummyII)
             
                 sigclip = 50.0
                 objlim = 50.0
@@ -648,7 +653,7 @@ def reduce_data(filelist_new, filelist_masterflats,  filelist_masterthars):
                 cosmics.tofits(mask, c.mask, header)
                 
             elif 5000 > float(mean_image[0]) > 1000:
-                array, header = cosmics.fromfits("dummyII.fits")
+                array, header = cosmics.fromfits(dummyII)
                 sigclip =20.0
                 objlim = 20.0
                 c = cosmics.cosmicsimage(array, gain=0.368,  readnoise=3.7, sigclip=sigclip, sigfrac=4.0, objlim=objlim)
@@ -657,7 +662,7 @@ def reduce_data(filelist_new, filelist_masterflats,  filelist_masterthars):
                 cosmics.tofits(clean, c.cleanarray, header)
                 cosmics.tofits(mask, c.mask, header)   
             else:
-                array, header = cosmics.fromfits("dummyII.fits")
+                array, header = cosmics.fromfits(dummyII)
                      
                 sigclip = 5.0
                 objlim = 5.0      
@@ -674,8 +679,8 @@ def reduce_data(filelist_new, filelist_masterflats,  filelist_masterthars):
             iraf.apall(clean, output=extract, references= "find_orders", profiles= "find_orders", apertures = "1-51" )
         #    iraf.apall(clean, output=extract, references= "find_orders", profiles= "find_orders", apertures = "3-50" )
         #    iraf.apall(clean, output=extract, references= "find_orders", profiles= "find_orders", apertures = "3-50" )
-            os.remove("dummyI.fits")
-            os.remove("dummyII.fits")
+            os.remove(dummyI)
+            os.remove(dummyII)
             os.remove(trim)
             
         write_reftable(filelist_new, filelist_masterthars)    
@@ -685,11 +690,8 @@ def reduce_data(filelist_new, filelist_masterflats,  filelist_masterthars):
         if thar_directory == os.path.dirname(filelist_new[0]):
             pass
         else :
-            if os.path.exists(os.path.join(thar_directory, "science.lis")):
-                os.remove(os.path.join(thar_directory, "science.lis"))
-                
-            if os.path.exists(os.path.join(thar_directory, "reftable.dat")):
-                os.remove(os.path.join(thar_directory, "reftable.dat"))
+            remove_file(thar_directory, "science.lis")                
+            remove_file(thar_directory, "reftable.dat")
         
             shutil.move("science.lis", thar_directory)
             shutil.move("reftable.dat", thar_directory)
