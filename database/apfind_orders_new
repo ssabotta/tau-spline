@@ -1,0 +1,1426 @@
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 1 1024. 7.886842
+	image	find_orders_new
+	aperture	1
+	beam	1
+	center	1024. 7.886842
+	low	-1023. -3.195728
+	high	1024. 4.056992
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		884.
+		2044.
+		2.891737
+		0.04167498
+		-6.522433
+		-0.01210031
+		0.08536904
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 2 1024. 41.8053
+	image	find_orders_new
+	aperture	2
+	beam	2
+	center	1024. 41.8053
+	low	-1023. -3.216076
+	high	1024. 4.124371
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		244.
+		2044.
+		-4.519753
+		17.00797
+		-15.3945
+		0.0130787
+		-0.0465306
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 3 1024. 75.86873
+	image	find_orders_new
+	aperture	3
+	beam	3
+	center	1024. 75.86873
+	low	-1023. -3.064362
+	high	1024. 4.117981
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-9.124513
+		26.35453
+		-19.41658
+		0.03570793
+		-0.003680052
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 4 1024. 110.1672
+	image	find_orders_new
+	aperture	4
+	beam	4
+	center	1024. 110.1672
+	low	-1023. -3.087509
+	high	1024. 4.30014
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-8.884042
+		26.40146
+		-18.96775
+		0.02982923
+		0.0090508
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 5 1024. 144.7316
+	image	find_orders_new
+	aperture	5
+	beam	5
+	center	1024. 144.7316
+	low	-1023. -3.126678
+	high	1024. 4.132797
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-8.671195
+		26.49476
+		-18.5287
+		0.03746977
+		-0.01678685
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 6 1024. 179.5974
+	image	find_orders_new
+	aperture	6
+	beam	6
+	center	1024. 179.5974
+	low	-1023. -3.208557
+	high	1024. 4.180115
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-8.511973
+		26.60571
+		-18.10442
+		0.05795896
+		-0.01752283
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 7 1024. 214.732
+	image	find_orders_new
+	aperture	7
+	beam	7
+	center	1024. 214.732
+	low	-1023. -3.20488
+	high	1024. 4.11174
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-8.347925
+		26.71233
+		-17.67909
+		0.04291796
+		0.00121071
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 8 1024. 250.113
+	image	find_orders_new
+	aperture	8
+	beam	8
+	center	1024. 250.113
+	low	-1023. -3.089966
+	high	1024. 4.022171
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-8.147864
+		26.8136
+		-17.26421
+		0.04596884
+		-0.001960757
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 9 1024. 285.7993
+	image	find_orders_new
+	aperture	9
+	beam	9
+	center	1024. 285.7993
+	low	-1023. -3.225098
+	high	1024. 4.020294
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-7.965989
+		26.91301
+		-16.84113
+		0.04783069
+		0.005457934
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 10 1024. 321.8232
+	image	find_orders_new
+	aperture	10
+	beam	10
+	center	1024. 321.8232
+	low	-1023. -3.25
+	high	1024. 3.99826
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-7.825841
+		27.03298
+		-16.44027
+		0.06714516
+		-0.001568884
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 11 1024. 358.1216
+	image	find_orders_new
+	aperture	11
+	beam	11
+	center	1024. 358.1216
+	low	-1023. -3.130188
+	high	1024. 3.809631
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-7.625469
+		27.15296
+		-16.02373
+		0.0559609
+		-0.002573687
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 12 1024. 394.8129
+	image	find_orders_new
+	aperture	12
+	beam	12
+	center	1024. 394.8129
+	low	-1023. -3.324127
+	high	1024. 3.928314
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-7.479058
+		27.28817
+		-15.61305
+		0.05926201
+		0.01452906
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 13 1024. 431.8483
+	image	find_orders_new
+	aperture	13
+	beam	13
+	center	1024. 431.8483
+	low	-1023. -3.34021
+	high	1024. 3.888855
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-7.3093
+		27.43352
+		-15.20774
+		0.05286377
+		0.005350729
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 14 1024. 469.2655
+	image	find_orders_new
+	aperture	14
+	beam	14
+	center	1024. 469.2655
+	low	-1023. -3.222656
+	high	1024. 3.690674
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-7.148808
+		27.57113
+		-14.81006
+		0.06062722
+		0.01680085
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 15 1024. 507.0352
+	image	find_orders_new
+	aperture	15
+	beam	15
+	center	1024. 507.0352
+	low	-1023. -3.2742
+	high	1024. 3.767334
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-6.942571
+		27.73916
+		-14.40526
+		0.03237412
+		-0.0264376
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 16 1024. 545.2866
+	image	find_orders_new
+	aperture	16
+	beam	16
+	center	1024. 545.2866
+	low	-1023. -3.243042
+	high	1024. 3.642822
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-6.816345
+		27.87852
+		-14.02875
+		0.06839558
+		0.0281276
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 17 1024. 583.8792
+	image	find_orders_new
+	aperture	17
+	beam	17
+	center	1024. 583.8792
+	low	-1023. -3.401978
+	high	1024. 3.763
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-6.616035
+		28.03895
+		-13.62742
+		0.06340048
+		0.02959863
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 18 1024. 622.9514
+	image	find_orders_new
+	aperture	18
+	beam	18
+	center	1024. 622.9514
+	low	-1023. -3.396057
+	high	1024. 3.71991
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-6.449466
+		28.21955
+		-13.22671
+		0.05935803
+		0.01977251
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 19 1024. 662.5087
+	image	find_orders_new
+	aperture	19
+	beam	19
+	center	1024. 662.5087
+	low	-1023. -3.377808
+	high	1024. 3.516418
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-6.30208
+		28.40419
+		-12.83645
+		0.06300435
+		0.02933823
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 20 1024. 702.5278
+	image	find_orders_new
+	aperture	20
+	beam	20
+	center	1024. 702.5278
+	low	-1023. -3.394653
+	high	1024. 3.478271
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-6.129381
+		28.5926
+		-12.44436
+		0.0641088
+		0.03420171
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 21 1024. 743.0369
+	image	find_orders_new
+	aperture	21
+	beam	21
+	center	1024. 743.0369
+	low	-1023. -3.425781
+	high	1024. 3.642639
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-5.944062
+		28.78698
+		-12.0503
+		0.06658874
+		0.04635109
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 22 1024. 784.0745
+	image	find_orders_new
+	aperture	22
+	beam	22
+	center	1024. 784.0745
+	low	-1023. -3.41626
+	high	1024. 3.62207
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-5.767829
+		28.9898
+		-11.6567
+		0.06616873
+		0.04541222
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 23 1024. 825.6561
+	image	find_orders_new
+	aperture	23
+	beam	23
+	center	1024. 825.6561
+	low	-1023. -3.45929
+	high	1024. 3.468567
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-5.593983
+		29.20559
+		-11.25723
+		0.07693948
+		0.05733923
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 24 1024. 867.7968
+	image	find_orders_new
+	aperture	24
+	beam	24
+	center	1024. 867.7968
+	low	-1023. -3.503357
+	high	1024. 3.533386
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-5.412175
+		29.42856
+		-10.86186
+		0.07376754
+		0.06232405
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 25 1024. 910.5582
+	image	find_orders_new
+	aperture	25
+	beam	25
+	center	1024. 910.5582
+	low	-1023. -3.445618
+	high	1024. 3.384094
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-5.252905
+		29.65597
+		-10.46767
+		0.06441832
+		0.05403451
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 26 1024. 953.9113
+	image	find_orders_new
+	aperture	26
+	beam	26
+	center	1024. 953.9113
+	low	-1023. -3.549438
+	high	1024. 3.497864
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-5.059148
+		29.89963
+		-10.06909
+		0.06644763
+		0.05696096
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 27 1024. 997.921
+	image	find_orders_new
+	aperture	27
+	beam	27
+	center	1024. 997.921
+	low	-1023. -3.555176
+	high	1024. 3.467041
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-4.872496
+		30.14927
+		-9.663436
+		0.07052547
+		0.06820424
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 28 1024. 1042.634
+	image	find_orders_new
+	aperture	28
+	beam	28
+	center	1024. 1042.634
+	low	-1023. -3.493286
+	high	1024. 3.310547
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-4.70177
+		30.41877
+		-9.280616
+		0.07394066
+		0.08545067
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 29 1024. 1087.999
+	image	find_orders_new
+	aperture	29
+	beam	29
+	center	1024. 1087.999
+	low	-1023. -3.543213
+	high	1024. 3.444946
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-4.508632
+		30.66786
+		-8.861691
+		0.08371799
+		0.08348002
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 30 1024. 1134.1
+	image	find_orders_new
+	aperture	30
+	beam	30
+	center	1024. 1134.1
+	low	-1023. -3.524536
+	high	1024. 3.422852
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-4.335073
+		30.94596
+		-8.445281
+		0.08543906
+		0.08444089
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 31 1024. 1180.949
+	image	find_orders_new
+	aperture	31
+	beam	31
+	center	1024. 1180.949
+	low	-1023. -3.584106
+	high	1024. 3.33606
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-4.14312
+		31.24078
+		-8.017806
+		0.08514858
+		0.08162473
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 32 1024. 1228.604
+	image	find_orders_new
+	aperture	32
+	beam	32
+	center	1024. 1228.604
+	low	-1023. -3.506592
+	high	1024. 3.264404
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-3.950965
+		31.5491
+		-7.58503
+		0.08454152
+		0.08358
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 33 1024. 1277.079
+	image	find_orders_new
+	aperture	33
+	beam	33
+	center	1024. 1277.079
+	low	-1023. -3.592773
+	high	1024. 3.302124
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-3.743194
+		31.86459
+		-7.150345
+		0.08460519
+		0.08836445
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 34 1024. 1326.412
+	image	find_orders_new
+	aperture	34
+	beam	34
+	center	1024. 1326.412
+	low	-1023. -3.395996
+	high	1024. 3.319458
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-3.533948
+		32.18474
+		-6.712551
+		0.08145222
+		0.09310975
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 35 1024. 1376.619
+	image	find_orders_new
+	aperture	35
+	beam	35
+	center	1024. 1376.619
+	low	-1023. -3.498779
+	high	1024. 3.220215
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-3.311094
+		32.51837
+		-6.272844
+		0.08864374
+		0.09928446
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 36 1024. 1427.764
+	image	find_orders_new
+	aperture	36
+	beam	36
+	center	1024. 1427.764
+	low	-1023. -3.559692
+	high	1024. 3.134399
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-3.091201
+		32.87076
+		-5.806533
+		0.08998617
+		0.1018701
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 37 1024. 1479.938
+	image	find_orders_new
+	aperture	37
+	beam	37
+	center	1024. 1479.938
+	low	-1023. -3.611694
+	high	1024. 3.025757
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-2.89746
+		33.24644
+		-5.325854
+		0.1042816
+		0.1031939
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 38 1024. 1533.147
+	image	find_orders_new
+	aperture	38
+	beam	38
+	center	1024. 1533.147
+	low	-1023. -3.625732
+	high	1024. 3.146362
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-2.662413
+		33.66556
+		-4.817129
+		0.08623876
+		0.09540166
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 39 1024. 1587.453
+	image	find_orders_new
+	aperture	39
+	beam	39
+	center	1024. 1587.453
+	low	-1023. -3.436523
+	high	1024. 3.203003
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-2.422396
+		34.04449
+		-4.328609
+		0.1030368
+		0.1086816
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 40 1024. 1642.807
+	image	find_orders_new
+	aperture	40
+	beam	40
+	center	1024. 1642.807
+	low	-1023. -3.56543
+	high	1024. 3.077515
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-2.142363
+		34.44975
+		-3.828843
+		0.1001265
+		0.1189603
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 41 1024. 1699.336
+	image	find_orders_new
+	aperture	41
+	beam	41
+	center	1024. 1699.336
+	low	-1023. -3.341919
+	high	1024. 3.214722
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-1.880122
+		34.88307
+		-3.316047
+		0.114027
+		0.1269716
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 42 1024. 1757.127
+	image	find_orders_new
+	aperture	42
+	beam	42
+	center	1024. 1757.127
+	low	-1023. -3.515137
+	high	1024. 3.111938
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-1.624504
+		35.35875
+		-2.766275
+		0.1314866
+		0.1315938
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 43 1024. 1816.285
+	image	find_orders_new
+	aperture	43
+	beam	43
+	center	1024. 1816.285
+	low	-1023. -3.479736
+	high	1024. 3.180298
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-1.364937
+		35.87664
+		-2.179099
+		0.1451101
+		0.1286865
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 44 1024. 1876.792
+	image	find_orders_new
+	aperture	44
+	beam	44
+	center	1024. 1876.792
+	low	-1023. -3.602173
+	high	1024. 3.085083
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-1.027382
+		36.39685
+		-1.566804
+		0.1480543
+		0.1273065
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 45 1024. 1938.724
+	image	find_orders_new
+	aperture	45
+	beam	45
+	center	1024. 1938.724
+	low	-1023. -3.540405
+	high	1024. 3.12085
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-0.6849509
+		36.91793
+		-0.9604853
+		0.1353839
+		0.1288234
+
+# Fri 16:07:26 23-Apr-2021
+begin	aperture find_orders_new 46 1024. 2002.178
+	image	find_orders_new
+	aperture	46
+	beam	46
+	center	1024. 2002.178
+	low	-1023. -3.556152
+	high	1024. 3.227905
+	background
+		xmin -9.
+		xmax 9.
+		function chebyshev
+		order 1
+		sample -9:-8,8:9
+		naverage -3
+		niterate 3
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		4.
+		2044.
+		-0.371679
+		37.47285
+		-0.3319733
+		0.1494822
+		0.1288716
+
